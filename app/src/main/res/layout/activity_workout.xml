@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Workout">
+
+    <TextView
+        android:id="@+id/secAccTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="180dp"
+        android:text="Second Accessory"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
+
+    <CheckBox
+        android:id="@+id/secAccessRep6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="s5"
+        app:layout_constraintStart_toEndOf="@+id/secAccessRep7"
+        app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
+
+    <CheckBox
+        android:id="@+id/secAccessRep7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="s4"
+        app:layout_constraintStart_toEndOf="@+id/secAccessRep9"
+        app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
+
+    <CheckBox
+        android:id="@+id/secAccessRep8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="s2"
+        app:layout_constraintStart_toEndOf="@+id/secAccRep"
+        app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
+
+    <CheckBox
+        android:id="@+id/secAccessRep9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="s3"
+        app:layout_constraintStart_toEndOf="@+id/secAccessRep8"
+        app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
+
+    <CheckBox
+        android:id="@+id/secAccRep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="s1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
+
+    <CheckBox
+        android:id="@+id/mainAccessRep5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="a5"
+        app:layout_constraintStart_toEndOf="@+id/mainAccessRep4"
+        app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
+
+    <CheckBox
+        android:id="@+id/mainAccessRep4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="a4"
+        app:layout_constraintStart_toEndOf="@+id/mainAccessRep3"
+        app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
+
+    <TextView
+        android:id="@+id/mainAccTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="180dp"
+        android:text="Main Accessory"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigRepTextView" />
+
+    <CheckBox
+        android:id="@+id/mainAccessRep3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="a3"
+        app:layout_constraintStart_toEndOf="@+id/mainAccessRep2"
+        app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
+
+    <CheckBox
+        android:id="@+id/mainAccRep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="a1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
+
+    <CheckBox
+        android:id="@+id/mainAccessRep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="a2"
+        app:layout_constraintStart_toEndOf="@+id/mainAccRep1"
+        app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
+
+    <CheckBox
+        android:id="@+id/bigRep3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="bigRep3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigRepTextView" />
+
+    <CheckBox
+        android:id="@+id/bigRep2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="bigRep2"
+        app:layout_constraintEnd_toStartOf="@+id/bigRep3"
+        app:layout_constraintStart_toEndOf="@+id/bigRep1"
+        app:layout_constraintTop_toBottomOf="@+id/bigRepTextView" />
+
+    <TextView
+        android:id="@+id/bigRepTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="180dp"
+        android:text="Big Rep Title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/bigRep1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="bigRep1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigRepTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

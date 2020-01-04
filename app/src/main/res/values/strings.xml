@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BBBTracker</string>
+    <string name="week">Week</string>
+    <string name="monday">Monday\nPress</string>
+    <string name="tuesday">Tuesday\nDeadlift</string>
+    <string name="thursday">Thursday\nBench</string>
+    <string name="friday">Friday\nSquat</string>
+    <string name="options">Options</string>
+</resources>
