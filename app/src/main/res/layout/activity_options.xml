@@ -6,4 +6,163 @@
     android:layout_height="match_parent"
     tools:context=".Options">
 
+    <Button
+        android:id="@+id/weekFourBtn"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/four"
+        app:layout_constraintStart_toEndOf="@+id/weekThreeBtn"
+        app:layout_constraintTop_toBottomOf="@+id/weekText" />
+
+    <Button
+        android:id="@+id/weekThreeBtn"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/three"
+        app:layout_constraintStart_toEndOf="@+id/weekTwoBtn"
+        app:layout_constraintTop_toBottomOf="@+id/weekText" />
+
+    <Button
+        android:id="@+id/weekTwoBtn"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/two"
+        app:layout_constraintStart_toEndOf="@+id/weekOneBtn"
+        app:layout_constraintTop_toBottomOf="@+id/weekText" />
+
+    <Button
+        android:id="@+id/squatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/squat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/benchBtn" />
+
+    <TextView
+        android:id="@+id/squatWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/deadBtn"
+        app:layout_constraintTop_toBottomOf="@+id/benchBtn" />
+
+    <Button
+        android:id="@+id/benchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/bench"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deadBtn" />
+
+    <TextView
+        android:id="@+id/benchWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/deadBtn"
+        app:layout_constraintTop_toBottomOf="@+id/deadBtn" />
+
+    <Button
+        android:id="@+id/deadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/deadlift"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pressBtn" />
+
+    <TextView
+        android:id="@+id/deadWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/deadBtn"
+        app:layout_constraintTop_toBottomOf="@+id/pressBtn" />
+
+    <Button
+        android:id="@+id/pressBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/press"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pressWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/pressBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/decBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/dec"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/squatBtn" />
+
+    <Button
+        android:id="@+id/incBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/inc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/squatBtn" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weekThreeBtn" />
+
+    <TextView
+        android:id="@+id/weekText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decBtn" />
+
+    <Button
+        android:id="@+id/weekOneBtn"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weekText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

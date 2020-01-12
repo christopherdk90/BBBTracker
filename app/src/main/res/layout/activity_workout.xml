@@ -22,47 +22,47 @@
         app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
 
     <CheckBox
-        android:id="@+id/secAccessRep6"
+        android:id="@+id/secAccessRep5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:text="s5"
-        app:layout_constraintStart_toEndOf="@+id/secAccessRep7"
+        app:layout_constraintStart_toEndOf="@+id/secAccessRep4"
         app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
 
     <CheckBox
-        android:id="@+id/secAccessRep7"
+        android:id="@+id/secAccessRep4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:text="s4"
-        app:layout_constraintStart_toEndOf="@+id/secAccessRep9"
+        app:layout_constraintStart_toEndOf="@+id/secAccessRep3"
         app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
 
     <CheckBox
-        android:id="@+id/secAccessRep8"
+        android:id="@+id/secAccessRep2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:text="s2"
-        app:layout_constraintStart_toEndOf="@+id/secAccRep"
+        app:layout_constraintStart_toEndOf="@+id/secAccessRep1"
         app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
 
     <CheckBox
-        android:id="@+id/secAccessRep9"
+        android:id="@+id/secAccessRep3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:text="s3"
-        app:layout_constraintStart_toEndOf="@+id/secAccessRep8"
+        app:layout_constraintStart_toEndOf="@+id/secAccessRep2"
         app:layout_constraintTop_toBottomOf="@+id/secAccTextView" />
 
     <CheckBox
-        android:id="@+id/secAccRep"
+        android:id="@+id/secAccessRep1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -116,7 +116,7 @@
         app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
 
     <CheckBox
-        android:id="@+id/mainAccRep1"
+        android:id="@+id/mainAccessRep1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -132,7 +132,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
         android:text="a2"
-        app:layout_constraintStart_toEndOf="@+id/mainAccRep1"
+        app:layout_constraintStart_toEndOf="@+id/mainAccessRep1"
         app:layout_constraintTop_toBottomOf="@+id/mainAccTextView" />
 
     <CheckBox

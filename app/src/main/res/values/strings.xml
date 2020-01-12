@@ -5,5 +5,16 @@
     <string name="tuesday">Tuesday\nDeadlift</string>
     <string name="thursday">Thursday\nBench</string>
     <string name="friday">Friday\nSquat</string>
+    <string name="press">Press</string>
+    <string name="deadlift">Deadlift</string>
+    <string name="bench">Bench</string>
+    <string name="squat">Squat</string>
+    <string name="inc">INC</string>
+    <string name="dec">DEC</string>
     <string name="options">Options</string>
+    <string name="save">Save</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
 </resources>

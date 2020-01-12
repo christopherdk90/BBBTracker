@@ -3,6 +3,7 @@ package com.example.bbbtracker;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -29,10 +30,14 @@ public class MainActivity extends AppCompatActivity {
     Button squatButton;
     Button optionsButton;
 
+    SharedPreferences pref;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        pref = getApplicationContext().getSharedPreferences("lifts", 0);
 
         initTextViews();
 
@@ -62,14 +67,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initSharedPrefs(){
-        // Todo: init shared pref values and place into strings
 
-        weekVal = "1";
-
-        pressVal = "125";
-        deadVal = "315";
-        benchVal = "225";
-        squatVal = "225";
+        weekVal = "" + pref.getInt("week", 1);
+        pressVal = "" + pref.getInt("press", 135);
+        deadVal = "" + pref.getInt("dead", 135);
+        benchVal = "" + pref.getInt("bench", 135);
+        squatVal = "" + pref.getInt("squat", 135);
 
     }
 
@@ -104,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         });
         optionsButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                // show options method
+                goOptions();
             }
         });
 
@@ -117,6 +120,13 @@ public class MainActivity extends AppCompatActivity {
         b.putInt("key", id);
         intent.putExtras(b);
         startActivity(intent);
+        finish();
+
+    }
+
+    private void goOptions(){
+
+        startActivity(new Intent(MainActivity.this, Options.class));
         finish();
 
     }
